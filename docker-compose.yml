@@ -14,7 +14,7 @@ services:
       LETSENCRYPT_HOST: metabase.xx.com
       LETSENCRYPT_EMAIL: xx@xx.com
       # Metabase
-      JAVA_TIMEZONE: Asia/Shanghai
+      JAVA_TIMEZONE: Asia/Hongkong
       JAVA_TOOL_OPTIONS: -Xmx1000m
       MB_DB_DBNAME: my_metabase
       MB_DB_HOST: xx
