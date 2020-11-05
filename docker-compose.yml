@@ -8,18 +8,18 @@ services:
       - "13000:3000"
     environment:
       # nginx-proxy
-      VIRTUAL_HOST: metabase.ccrc.com
+      VIRTUAL_HOST: metabase.xx.com
       VIRTUAL_PORT: 80
       # letsencrypt
-      LETSENCRYPT_HOST: metabase.ccrc.com
-      LETSENCRYPT_EMAIL: luzijian@ccrc.com
+      LETSENCRYPT_HOST: metabase.xx.com
+      LETSENCRYPT_EMAIL: xx@xx.com
       # Metabase
       JAVA_TIMEZONE: Asia/Shanghai
       JAVA_TOOL_OPTIONS: -Xmx1000m
       MB_DB_DBNAME: my_metabase
-      MB_DB_HOST: u18.wsl
-      MB_DB_PASS: Asdf+1234
+      MB_DB_HOST: xx
+      MB_DB_PASS: xx
       MB_DB_PORT: 3306
       MB_DB_TYPE: mysql
-      MB_DB_USER: metabase
+      MB_DB_USER: xx
     restart: always
